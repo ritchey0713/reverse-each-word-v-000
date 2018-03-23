@@ -10,7 +10,7 @@
 
 def reverse_each_word(sentence1)
   arr=sentence1.split(" ")
-  new_arr=[]
+  
   arr.collect do |mirror|
     new_arr << mirror.reverse
     new_arr.join(" ")
