@@ -13,7 +13,8 @@ def reverse_each_word(sentence1)
   
   arr.collect do |mirror|
     mirror.reverse
-    mirror.join(" ")
+   
   end
+ mirror.join(" ")
 end
     
