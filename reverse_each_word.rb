@@ -14,4 +14,6 @@ def reverse_each_word(sentence1)
   arr.collect do |mirror|
     new_arr << mirror.reverse
     new_arr.join(" ")
+  end
+end
     
