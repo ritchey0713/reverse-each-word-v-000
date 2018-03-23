@@ -15,6 +15,6 @@ def reverse_each_word(sentence1)
     mirror.reverse
    
   end
- mirror.join(" ")
+ .join(" ")
 end
     
