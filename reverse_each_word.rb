@@ -1,6 +1,6 @@
 def reverse_each_word(sentence1)
 arr = sentence1.split(" ")
-arr.each do |mirror| mirror.reverse.join
+new_arr=arr.each do |mirror| mirror.reverse
 
 end
 end
